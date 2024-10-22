@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("./Fondo-madera.webp");
+  background-size: cover;
+}
+
+#tablero {
+  display: grid;
+  gap: 5px;
+}
+
+.casilla {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  /* border: 1px solid #333; */
+}
+
+.activa {
+  background-color: orangered;
+  /* background-color: #ff0; */
+}
